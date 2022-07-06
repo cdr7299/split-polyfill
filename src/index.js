@@ -20,7 +20,9 @@ function customSplit(str, delim = "") {
   resultArray.push(
     str.substr(resultIndices[resultIndices.length - 1] + delimLen)
   );
+
+  return resultArray;
 }
 
-let str = "abc abc abc";
-customSplit(str, " ");
+let str = "";
+console.log(customSplit(str, "ab"));
