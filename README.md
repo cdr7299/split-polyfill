@@ -1,1 +1,1 @@
-splice polyfill
+split polyfill
