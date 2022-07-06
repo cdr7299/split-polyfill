@@ -24,5 +24,5 @@ function customSplit(str, delim = "") {
   return resultArray;
 }
 
-let str = "";
+let str = "ab abc ab";
 console.log(customSplit(str, "ab"));
